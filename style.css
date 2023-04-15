@@ -1,0 +1,98 @@
+.question-name h1 {
+    background-color: rgba(3, 0, 1, 0.261);
+    color: rgb(255, 0, 0);
+}
+
+.question-name {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/700/376/11/pubg-playerunknowns-battlegrounds-2018-games-games-wallpaper-preview.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.choice-grid div{
+    box-sizing: border-box;
+    width: 32.5%;
+    padding: 10px;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    border: 1px solid #dcdcdc;
+}
+
+@media(max-width: 500px){
+    .choice-grid div{
+        width: 50%;
+    }
+}
+
+.choice-grid .checked{
+    background-color: #cfe3ff;
+}
+
+.choice-grid .unchecked{
+    opacity: 0.6;
+}
+
+section.choice-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.choice-grid img{
+    width: 100%;
+}
+
+img.checkbox{
+    justify-content: center;
+    width: 100%;
+}
+
+.hidden{
+    display: none;
+}
+
+button{
+    height: 50px;
+    width: 100%;
+}
+
+@media(max-width: 700px){
+    #info{
+        display: none;
+    }
+
+    article{
+        width: 95%;
+    }
+
+}
+
+.exit{
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom : 20px;
+}
+
+.TextExit{
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.one{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/460/775/636/scary-walking-dead-zombies-wallpaper-preview.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/986/899/615/zombies-wallpaper-preview.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/74/918/359/zombies-bike-the-walking-dead-the-walking-dead-wallpaper-preview.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
